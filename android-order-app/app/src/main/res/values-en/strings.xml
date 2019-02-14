@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Order App</string>
+    <string name="btnClients">Clients</string>
+    <string name="btnProduct">Products</string>
+    <string name="btnOrders">Orders</string>
+    <string name="alertMsg">Alert</string>
+    <string name="confirmMsg">Confirm</string>
+    <string name="strName">Name</string>
+    <string name="phoneTxt">Phone</string>
+    <string name="valueTxt">Value</string>
+    <string name="descriptionTxt">Description</string>
+    <string name="clientTxt">Client</string>
+    <string name="productTxt">Product</string>
+    <string name="stateTxt">State</string>
+    <string name="yesTxt">Yes</string>
+    <string name="noTxt">No</string>
+    <string name="deleteConfirmTxt">Are you sure?</string>
+    <string name="newTxt">New</string>
+    <string name="emptyFieldTxt">Empty Field</string>
+    <string name="saveTxt">Save</string>
+    <string name="clientsTxt">Clients</string>
+    <string name="openTxt">Open</string>
+    <string name="deleteTxt">Delete</string>
+    <string name="productsTxt">Preducts</string>
+    <string name="ordersTxt">Orders</string>
+    <string name="aceptTxt">Accept</string>
+    <string name="doingTxt">Doing</string>
+    <string name="deliveredTxt">Delivered</string>
+    <string name="defaultSalutation">Hello</string>
+</resources>

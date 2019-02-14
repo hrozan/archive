@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Aplicativo de Pedidos</string>
+    <string name="btnClients">Clientes</string>
+    <string name="btnProduct">Produtos</string>
+    <string name="btnOrders">Pedidos</string>
+    <string name="title_activity_clients">Clients</string>
+    <string name="alertMsg">Alerta</string>
+    <string name="okMsg" translatable="false">Ok</string>
+    <string name="confirmMsg">Confirma</string>
+    <string name="strName">Nome</string>
+    <string name="emailTxt" translatable="false">Email</string>
+    <string name="phoneTxt">Celular</string>
+    <string name="valueTxt">Valor</string>
+    <string name="descriptionTxt">Descrição</string>
+    <string name="clientTxt">Cliente</string>
+    <string name="productTxt">Produto</string>
+    <string name="stateTxt">Estado</string>
+    <string name="yesTxt">Sim</string>
+    <string name="noTxt">Não</string>
+    <string name="deleteConfirmTxt">Voce realmente deseja excluir esse item?</string>
+    <string name="newTxt">Novo</string>
+    <string name="emptyFieldTxt">Campo Vazio</string>
+    <string name="saveTxt">Salvar</string>
+    <string name="clientsTxt">Clientes</string>
+    <string name="openTxt">Abrir</string>
+    <string name="deleteTxt">Apagar</string>
+    <string name="productsTxt">Produtos</string>
+    <string name="ordersTxt">Pedidos</string>
+    <string name="aceptTxt">Aceito</string>
+    <string name="doingTxt">Fazendo</string>
+    <string name="deliveredTxt">Entregue</string>
+    <string name="salutationTxt">Saudação</string>
+    <string name="defaultSalutation">Ola</string>
+
+
+</resources>
