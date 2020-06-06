@@ -3,7 +3,6 @@ const bubbleSort = (arr) => {
     const length = arr.length - 1
 
     while (!noSwap) {
-
         let localSwap = false
         for (let i = 0; i < length; i++) {
             const current = arr[i]
@@ -19,13 +18,12 @@ const bubbleSort = (arr) => {
         }
 
         if (!localSwap) noSwap = true
-
     }
-
 }
 
+const length = 100000000
+const arr = [...new Array(length)].map(_ => Math.floor(Math.random() * (length + length)))
 
-const arr = [6, 3, 8, 4, 9, 12]
 console.log(arr)
 
 bubbleSort(arr)
