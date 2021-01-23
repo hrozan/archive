@@ -1,8 +1,6 @@
 use std::convert::TryFrom;
-use std::io::Error;
 use std::io::Read;
-use std::net;
-use std::net::{SocketAddr, TcpListener, TcpStream};
+use std::net::TcpListener;
 
 use crate::http::Request;
 
@@ -26,14 +24,16 @@ impl Server {
                         Ok(_) => {
                             println!("Received a request: {}", String::from_utf8_lossy(&buffer));
                             match Request::try_from(&buffer[..]) {
-                                Ok(request) => {}
-                                Err(e) => { println!("Failed to parse request: {}", e) }
+                                Ok(request) => {
+                                    dbg!(request);
+                                }
+                                Err(e) => println!("Failed to parse request: {}", e),
                             }
                         }
-                        Err(e) => { println!("Failed to read from connection: {}", e) }
+                        Err(e) => println!("Failed to read from connection: {}", e),
                     }
                 }
-                Err(e) => { println!("Failed to establish a connection: {}", e) }
+                Err(e) => println!("Failed to establish a connection: {}", e),
             }
         }
     }

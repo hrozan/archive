@@ -1,4 +1,5 @@
-use http::Method;
+#![allow(dead_code)]
+
 use server::Server;
 
 mod server;
