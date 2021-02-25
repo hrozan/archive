@@ -1,5 +1,3 @@
-using System;
-
 namespace Sandbox.Hospital
 {
     public abstract class Person
@@ -8,3 +6,4 @@ namespace Sandbox.Hospital
 
     }
 }
+

@@ -9,6 +9,6 @@ var anesthetist = new Anesthetist
     Crm = "1234123"
 };
 
-var doc = (Doctor)anesthetist;
+var doc = (Doctor) anesthetist;
 anesthetist.Operate();
 doc.Operate();
