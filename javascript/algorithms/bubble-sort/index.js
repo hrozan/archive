@@ -21,7 +21,7 @@ const bubbleSort = (arr) => {
     }
 }
 
-const length = 100000000
+const length = 1000
 const arr = [...new Array(length)].map(_ => Math.floor(Math.random() * (length + length)))
 
 console.log(arr)
